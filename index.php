@@ -1,0 +1,10 @@
+<?php echo 'PHP is working!'; ?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>splitbill1</title>
+    </head>
+    <body>
+        <h1>app: splitbill1</h1>
+    </body>
+    </html>
