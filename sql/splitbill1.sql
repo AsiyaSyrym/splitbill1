@@ -32,7 +32,7 @@ CREATE TABLE `users` (
   `name` varchar(100) NOT NULL,
   `email` varchar(150) NOT NULL,
   `password_hash` varchar(255) NOT NULL,
-  `role` enum('user','admin') NOT NULL DEFAULT current_timestamp(),
+  `role` enum('user','admin') NOT NULL DEFAULT 'user',
   `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
   `avatar` varchar(255) DEFAULT NULL,
   `phone` varchar(20) DEFAULT NULL,
