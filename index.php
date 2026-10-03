@@ -1,4 +1,5 @@
-<?php echo 'PHP is working!'; ?>
+<?php require 'src/db.php';
+echo '<br>DB connection: OK'; ?>
 <!DOCTYPE html>
 <html>
     <head>
